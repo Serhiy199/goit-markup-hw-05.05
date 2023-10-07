@@ -11,6 +11,7 @@ body {
   background-color: #ffffff;
 }
 
+..
 /* ---------- main ----------- */
 /* ==========main-hero ===========*/
 
@@ -21,7 +22,7 @@ body {
   padding-top: 72px;
   padding-bottom: 72px;
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero/dark-mobile1x.jpg");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/dark-mobile1x.jpg");
   background-size: cover;
   /* background-size: cover; обов'язково */
 }
@@ -30,7 +31,7 @@ body {
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero/dark-mobile2x.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/dark-mobile2x.jpg");
   }
 }
 
@@ -69,7 +70,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero/dark-tablet.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/dark-tablet.jpg");
   }
 
   .hero-titel {
@@ -85,7 +86,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero/dark-tablet2x.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/dark-tablet2x.jpg");
   }
 }
 
@@ -94,7 +95,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero/people-office.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/people-office.jpg");
   }
 
   .hero-titel {
@@ -106,7 +107,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution: 2dppx) and (min-width: 1158px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("/images/hero/people-office-desktop2x.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/people-office-desktop2x.jpg");
   }
 }
 
